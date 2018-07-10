@@ -1,6 +1,6 @@
 <table style="background: gainsboro;border: black solid 1px">
     <tr>
-        <td style="background: yellow;border: black solid 1px;padding: 10px;" colspan="2">010-server</td>
+        <td style="background: yellow;border: black solid 1px;padding: 10px;" colspan="2">GuildOfTeachersServer</td>
     </tr>
     <tr>
         <td style="background: yellow;border: black solid 1px;padding: 10px;">config prop</td>
@@ -19,7 +19,7 @@
     </tr>
     <tr>
         <td >db.password dev</td>
-        <td >1234</td>
+        <td >root</td>
     </tr>
     <tr>
         <td >websocket</td>
