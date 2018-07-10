@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img {
+            float: left;
+            margin-left: 8px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            margin: auto;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        td {
+            border: 2px solid purple;
+            color: #6a0687;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr style="height:70px; border: 2px solid purple;">
+        <td style="border: 0px; width: 70px;">
+            <!--todo-->
+            <img src="logo.png" alt="FailedToLoad"
+                 height="auto" width="70px">
+        </td>
+        <td colspan="3" style="border: 0px;">
+            <span style="color:purple; font-size:20px;">Global Plus</span>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:257px;" colspan="2">
+            <span>Your temporary login and password :</span>
+        </td>
+        <td style="width: 168px">
+            <span>${login}</span>
+        </td>
+        <td style="width: 167px">
+            <span>${pass}</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <span>You can sign-in here: <a href=${path}>Login</a></span>
+        </td>
+    </tr>
+    <tr style="height: 70px;">
+        <td colspan="3" style="border: 0px;">
+            <span>Created by <a href="http://m-pls.com/">M-Plus</a></span>
+        </td>
+        <td style="border: 0px;">
+            <!--todo-->
+            <img src="mplus.logo.png" alt="FailedToLoad"
+                 height="auto" width="70px">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
