@@ -20,7 +20,7 @@ public class UserConfirmController {
         LOGGER.info("----------------------CONFIRM--------------------------");
         userService.confirmByUuid(uuid);
         LOGGER.info("-----------END-----------CONFIRM----------END----------------");
-        return "redirect:http://185.69.152.250/#/sign-in";
+        return "redirect:http://localhost/#/sign-in";
     }
 
     @GetMapping("/confirm/key/{uuid}/{password}/{username}")
@@ -28,7 +28,7 @@ public class UserConfirmController {
         LOGGER.info("----------------------CONFIRM--------------------------");
         userService.confirmByUuid(uuid);
         LOGGER.info("-----------END-----------CONFIRM----------END----------------");
-        return "redirect:http://185.69.152.250/#/sign-in/" + password + "/" + username;
+        return "redirect:http://localhost/#/sign-in/" + password + "/" + username;
     }
 
 }
