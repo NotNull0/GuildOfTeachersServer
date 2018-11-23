@@ -43,7 +43,7 @@ public class MailServiceImpl implements MailService {
     @Override
     public User resetPassword(User user) {
         Map<String, Object> map = new HashMap<>();
-        map.put("uuid", "http://teachers.org.ua/#/restore-password/change/" + user.getUuid());
+        map.put("uuid", "http://localhost/#/restore-password/change/" + user.getUuid());
         send(user.getEmail(), "Відновлення паролю", "resPass.html", map);
         return user;
     }
